@@ -16,7 +16,6 @@ function getRole(index: number, activeIndex: number): Role {
   const center = activeIndex;
   const left = (activeIndex + 3) % 4;
   const right = (activeIndex + 1) % 4;
-  const back = (activeIndex + 2) % 4;
   if (index === center) return 'center';
   if (index === left) return 'left';
   if (index === right) return 'right';
